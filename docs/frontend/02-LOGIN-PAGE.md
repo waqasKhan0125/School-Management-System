@@ -1,7 +1,7 @@
 # Login Page Specification
 
 ## Required visual target
-Follow `reference-images/01-login-reference.jpg`. Do not substitute a standard centered login box. Desktop must show the large light outer frame, dark left branding panel and white right login card in the same composition.
+Follow `reference-images/01-login-reference.jpg `. Do not substitute a standard centered login box. Desktop must show the large light outer frame, dark left branding panel and white right login card in the same composition.
 
 ## Left branding panel
 Order and alignment:
@@ -18,7 +18,7 @@ Order and alignment:
 - White rounded card with subtle shadow, centered in the right area.
 - Heading: `Welcome back`.
 - Subtitle: `Sign in to your account`.
-- Username/email field with envelope icon and placeholder `you@school.com` unless the final authentication spec chooses username instead. Do not add both username and email without a requirements decision.
+- Username/email field with envelope icon and placeholder `you@gmail.com` unless the final authentication spec chooses username instead. Do not add both username and email without a requirements decision.
 - Password field with lock icon, masked by default, eye toggle on the right.
 - One row: `Remember me` checkbox on left; `Forgot password?` link on right.
 - Wide primary `Sign In` button with green-to-teal horizontal gradient.

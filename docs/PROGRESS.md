@@ -14,3 +14,11 @@ Aaj project ki foundation set ki gayi.
 ## 📅 Date: 24 & 25-October-2026 (Day 2 & Day 3)
 ### 🛑 Status: Absent (Leave)
 - **Reason:** (Shadi) ki masrofiyat ki wajah se project par kaam nahi ho saka.
+---
+
+## 📅 Date: 27-October-2026 (Day 4)
+### 🎯 Today's Task
+Frontend ke saare pages (Login, Dashboards, Students, Fees, etc.) ki requirements ki MD files tayyar ki gayi hain aur GitHub par push kar di gayi hain.
+
+### 📌 Note for Supervisor/HOD:
+MD files banane ke baad, abhi in files ko detial sy parna ha  or samjna ha
