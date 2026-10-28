@@ -1,5 +1,11 @@
 # Design System — Match the Supplied Images
 
+## Implementation phase
+- **Phase:** Phase 1 — Shared visual foundation
+- **Before starting:** Complete design tokens and reusable styles first. Validate the app shell against the supplied dashboard image.
+- **Required workflow:** Read this file fully, inspect existing files, tell the user what will change, implement only this phase, test, compare with the reference image where relevant, and report results. Do not move to the next phase without review.
+
+
 ## Source of truth
 - Login: `reference-images/01-login-reference.jpg` (1920 × 1280 source image; visible composition has a light outer canvas, a large rounded white application frame, a dark navy branding panel on the left and login card on the right).
 - Dashboard: `reference-images/02-dashboard-reference.jpg` (1920 × 1280 source image; left vertical navy sidebar and large light main workspace).

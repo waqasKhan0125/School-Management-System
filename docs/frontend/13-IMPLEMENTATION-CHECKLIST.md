@@ -1,5 +1,11 @@
 # Implementation and Visual QA Checklist
 
+## Implementation phase
+- **Phase:** Phase 5 — Responsive and visual QA
+- **Before starting:** Use throughout development, then complete final visual, responsive, accessibility and role-permission checks.
+- **Required workflow:** Read this file fully, inspect existing files, tell the user what will change, implement only this phase, test, compare with the reference image where relevant, and report results. Do not move to the next phase without review.
+
+
 ## Before coding
 - [ ] Inspect repository and existing `apps/web` files.
 - [ ] Read all relevant docs and open both reference images.

@@ -1,5 +1,11 @@
 # SchoolFlow Frontend — Exact Reference Pack
 
+## Implementation phase
+- **Phase:** Phase 0 — Read and confirm
+- **Before starting:** Explain the frontend documentation and phase sequence to the user before coding.
+- **Required workflow:** Read this file fully, inspect existing files, tell the user what will change, implement only this phase, test, compare with the reference image where relevant, and report results. Do not move to the next phase without review.
+
+
 ## Purpose
 This folder is the frontend design and implementation specification for SchoolFlow. It is written for both the student developer and the coding agent. The two images in `reference-images/` are the visual source of truth.
 
@@ -30,3 +36,7 @@ This folder is the frontend design and implementation specification for SchoolFl
 
 ## Important scope boundary
 These are frontend specifications, not a claim that the app is already implemented. Do not create backend/database features in this task. The app's existing monorepo structure should be inspected before creating source files. If source files are empty, build them cleanly; do not assume existing components are present.
+
+
+## How to use the phases
+Each page specification contains its own implementation phases. For example, `02-LOGIN-PAGE.md` begins with Phase 1 (left branding panel only), then Phase 2 (right login form), Phase 3 (assemble full screen), followed by responsive behaviour, functionality, and visual review. Follow phases within each file in order.

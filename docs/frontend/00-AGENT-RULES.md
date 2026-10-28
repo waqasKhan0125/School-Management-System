@@ -1,5 +1,11 @@
 # Strict Rules for the Coding Agent
 
+## Implementation phase
+- **Phase:** Phase 0 — Read and confirm; applies to every phase
+- **Before starting:** Follow the mandatory phase gates and reference-image rules throughout implementation.
+- **Required workflow:** Read this file fully, inspect existing files, tell the user what will change, implement only this phase, test, compare with the reference image where relevant, and report results. Do not move to the next phase without review.
+
+
 ## Non-negotiable visual rule
 The provided images are the required target, not loose inspiration. Do not redesign, modernize, simplify, recolor, rearrange, or replace their composition with a generic admin template. Keep the same visual hierarchy, placement, proportions, whitespace, colors, rounded corners, gradients, and overall look as closely as practical.
 
@@ -29,3 +35,16 @@ Only product-specific elements may change where required: sample user name/data,
 
 ## Explain your work
 For each phase, tell the student in simple English what files were created/changed and why. Keep a short list of remaining tasks. Do not claim a page is complete unless it has been checked against its specification.
+
+
+## Mandatory phased workflow
+1. Read the root `PHASE-PLAN.md` and follow its sequence.
+2. Do not write code during Phase 0. First explain the plan and wait for user approval.
+3. Work on one phase at a time; do not generate the whole frontend in one response.
+4. Before each phase, list exact files to create/change. Afterward, list files changed, checks run, and anything not yet verified.
+5. Stop at each phase gate for user review.
+6. The two supplied reference images are the visual source of truth. Do not change their composition, layout, proportions, card arrangement, sidebar placement, or palette without explicit approval.
+
+
+## Important: phases must be inside each page file
+Follow the phases written inside the selected page specification. Example: `02-LOGIN-PAGE.md` has Phase 1 for the left branding panel, Phase 2 for the right login card, Phase 3 to assemble them, then responsive, functional, and visual-review phases. Apply the same page-by-page phased approach to dashboards and modules. Do only the current phase, check it, and report before proceeding.
